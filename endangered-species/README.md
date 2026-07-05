@@ -1,39 +1,85 @@
-# Endangered Species: Three Rivers Local License Plate Frame
+# Endangered Species
 
-## Backstory
+## Three Rivers Local License Plate Frame
+
+### Backstory
 
 Three Rivers used to be a small town made up mostly of locals—people who worked here, raised families here, and actually lived in the community day to day.
 
 Over time, that has changed.
 
-A large number of homes have been converted into short-term rentals. Many of these are owned by people who don’t live in Three Rivers at all—some by out-of-area investors, and some by larger investment groups. As a result, fewer homes are available for people who want to live and work in the town full-time.
+A growing number of homes have been converted into short-term rentals. Many of these are owned by people who do not live in Three Rivers at all. As housing availability decreases, it becomes more difficult for local residents and workers to find places to live within the community.
 
-The effect is noticeable. Fewer year-round residents, fewer familiar faces, and a growing sense that the balance is shifting away from a local community toward something more transient.
+The result is a gradual reduction in the number of full-time residents and a noticeable change in the character of the town.
 
-This project isn’t meant to solve that problem.
+This project is not intended to solve that problem.
 
-But it is a small way to say something about it.
+It is simply a small, visible way to acknowledge it.
 
-## Project Idea
+---
 
-A custom 3D printed license plate frame with bold, visible text:
+## Design Concept
 
-Top: **THREE RIVERS LOCAL**  
-Bottom: **ENDANGERED SPECIES**
+The frame uses wildlife-conservation language to make a statement about the declining number of year-round locals.
 
-The goal is simple:
-- Make something practical and well-designed  
-- Practice 3D modeling and multi-color printing  
-- Create a piece that says something without needing explanation  
+Top:
 
-## Build Overview
+THREE RIVERS LOCAL
 
-- Designed in **Fusion 360**
-- Printed on a **Bambu H2C**
-- Multi-color print using AMS
-- Optimized for rear license plate (registration sticker clearance)
+Bottom:
 
-See:
-- `design.md` for dimensions and CAD details  
-- `print-settings.md` for slicer configuration and material notes  
+ENDANGERED SPECIES
 
+The message is intentionally short, readable, and immediately understandable without additional explanation.
+
+---
+
+## Goals
+
+- Create a practical everyday-use license plate frame
+- Practice Fusion 360 modeling techniques
+- Explore multi-color 3D printing
+- Create a design that communicates an idea with minimal text
+
+---
+
+## Design Elements
+
+Current design includes:
+
+- Raised lettering
+- Multi-color printing
+- Standard frame template geometry
+
+Possible future additions:
+
+- Local-themed graphics
+- Wildlife silhouettes
+- River or mountain imagery
+- Alternate text layouts
+
+---
+
+## Manufacturing
+
+Designed in:
+
+- Fusion 360
+
+Printed using:
+
+- Bambu Lab H2C
+- AMS Multi-Color System
+
+Typical colors:
+
+- Black frame
+- White lettering
+
+---
+
+## Status
+
+Prototype and design iteration project.
+
+Additional versions may be created as the concept evolves.
