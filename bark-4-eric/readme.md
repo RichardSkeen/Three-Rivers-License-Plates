@@ -12,6 +12,8 @@ Like most good hounds, he takes his security responsibilities seriously. He rout
 - People approaching the property
 - General suspicious activity
 
+![Bark 4 Eric License Plate Frame](images/bark-4-eric-hero.png)
+
 A nearby neighbor has expressed strong opinions regarding these alerts.
 
 Rather than debate the issue, this project embraces it.
