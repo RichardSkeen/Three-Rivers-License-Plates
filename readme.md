@@ -41,6 +41,43 @@ Each license plate frame concept is implemented as its own Fusion component cont
 
 This minimizes duplication and allows multiple designs to share the same base platform.
 
+#### Modular Attachment System
+
+To support designs that extend beyond the printable area of the base frame, the frame template includes a universal attachment system.
+
+The attachment system consists of a repeating pattern of shallow circular recesses ("dimples") located around selected areas of the frame.
+
+Design-specific components may include matching protruding bosses on their reverse side, allowing them to:
+
+- Self-align during assembly
+- Increase glue and epoxy bonding area
+- Remain compatible with future frame designs
+- Avoid the need for design-specific attachment features
+
+This approach allows decorative elements to be manufactured separately from the frame and attached after printing.
+
+Examples include:
+
+- Animal silhouettes
+- Trees
+- Mountains
+- Logos
+- Text plaques
+- Other decorative elements that extend beyond the printable envelope of the standard frame
+
+The attachment system is intended to be universal so that future frame concepts can reuse the same frame template without modification.
+
+##### Preliminary Design Targets
+
+| Feature | Value |
+|----------|---------|
+| Dimple Diameter | 5–6 mm |
+| Dimple Depth | 1–2 mm |
+| Boss Clearance | 0.15–0.25 mm |
+| Adhesive | Epoxy or outdoor-rated CA |
+
+The dimples are intended primarily for alignment and increased bonding surface area. Structural strength is provided by the adhesive bond between the attachment and the frame.
+
 ---
 
 ## Standard Dimensions
