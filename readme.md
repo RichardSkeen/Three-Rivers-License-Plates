@@ -1,216 +1,297 @@
-﻿# License Plate Frames
+﻿# Sticky Plate
 
-A collection of custom 3D-printed license plate frame designs created in Fusion 360 and manufactured on a Bambu Lab H2C printer.
+A modular license plate frame system designed for customization, creativity, and community involvement.
 
-The purpose of this repository is to develop, document, and organize unique license plate frame concepts while maintaining a common design template, manufacturing process, and set of dimensions.
+Sticky Plate separates the license plate frame from the artwork.
 
-Some designs are humorous. Some are commentary. Some may simply exist because the idea seemed amusing at the time.
+Instead of replacing an entire frame whenever you want a new design, Sticky Plate uses a permanent mounting frame that remains attached to the vehicle while interchangeable decorative accessories can be swapped in seconds.
+
+Install the frame once.
+
+Change the personality whenever you want.
 
 ---
 
-## Design Approach
+## The Idea
 
-The Fusion 360 project is organized around reusable components that make it easy to create new frame designs.
+Traditional license plate frames are static.
 
-### License Plate Reference
+You buy a frame, install it, and that's what your vehicle displays until you replace the entire thing.
 
-A dimensionally accurate model of a standard U.S. license plate used to verify:
+Sticky Plate takes a different approach.
 
-- Plate visibility
-- Registration sticker clearance
-- Mounting hole locations
-- Readability of required information
+The system consists of:
 
-This component exists only as a design reference and is never printed.
+1. A permanent vehicle-mounted frame.
+2. A standardized accessory attachment system.
+3. Interchangeable decorative components ("Bling").
 
-### Frame Template
+This allows vehicle owners to easily change the appearance of their frame without removing it from the vehicle.
 
-A reusable frame component containing:
+---
 
-- Outer frame geometry
-- Standard mounting holes
-- Reinforced mounting areas
-- Plate opening dimensions
-- Shared structural features
+## Why Sticky Plate?
 
-Every frame design is built on top of this template.
+Because personalization should be easy.
 
-### Design-Specific Components
+Want a dog-themed frame today?
 
-Each license plate frame concept is implemented as its own Fusion component containing only the unique graphics, text, and decorative elements required for that design.
+Install a dog accessory.
 
-This minimizes duplication and allows multiple designs to share the same base platform.
+Want a holiday theme next month?
 
-#### Modular Attachment System
+Swap the accessory.
 
-To support designs that extend beyond the printable area of the base frame, the frame template includes a universal attachment system.
+Want to create something completely unique?
 
-The attachment system consists of a repeating pattern of shallow circular recesses ("dimples") located around selected areas of the frame.
+Design it yourself.
 
-Design-specific components may include matching protruding bosses on their reverse side, allowing them to:
+The goal is to create a platform where the frame remains constant while the artwork evolves.
 
-- Self-align during assembly
-- Increase glue and epoxy bonding area
-- Remain compatible with future frame designs
-- Avoid the need for design-specific attachment features
+---
 
-This approach allows decorative elements to be manufactured separately from the frame and attached after printing.
+## Core Components
 
-Examples include:
+### Universal Frame
 
-- Animal silhouettes
-- Trees
-- Mountains
-- Logos
-- Text plaques
-- Other decorative elements that extend beyond the printable envelope of the standard frame
+The Universal Frame is the foundation of the system.
 
-The attachment system is intended to be universal so that future frame concepts can reuse the same frame template without modification.
+Features include:
 
-##### Preliminary Design Targets
+- Standard U.S. license plate dimensions
+- Vehicle mounting holes
+- Structural support
+- Weather-resistant construction
+- Universal accessory attachment interface
 
-| Feature | Value |
-|----------|---------|
-| Dimple Diameter | 5–6 mm |
-| Dimple Depth | 1–2 mm |
-| Boss Clearance | 0.15–0.25 mm |
-| Adhesive | Epoxy or outdoor-rated CA |
+The frame is intended to remain permanently mounted to the vehicle.
 
-The dimples are intended primarily for alignment and increased bonding surface area. Structural strength is provided by the adhesive bond between the attachment and the frame.
+Potential future manufacturing options include:
+
+- Powder-coated steel
+- Stainless steel
+- Aluminum
+- ASA or PETG printed versions
 
 ---
 
 ## Standard Dimensions
 
+The following dimensions represent the current design reference used for development of the Sticky Plate system.
+
 ### U.S. License Plate Reference
 
 | Dimension | Value |
 |------------|---------|
-| Width | 304.8 mm |
-| Height | 152.4 mm |
-| Hole Spacing X | 177.8 mm |
-| Hole Spacing Y | 120.65 mm |
+| Width | 304.8 mm (12.00 in) |
+| Height | 152.4 mm (6.00 in) |
+| Mounting Hole Spacing (X) | 177.8 mm (7.00 in) |
+| Mounting Hole Spacing (Y) | 120.65 mm (4.75 in) |
 
-### Frame
+These dimensions are provided as a reference model used to verify:
+
+- Plate visibility
+- Registration sticker clearance
+- Mounting hole placement
+- Accessory compatibility
+
+---
+
+### Sticky Plate Universal Frame
 
 | Dimension | Value |
 |------------|---------|
-| Outer Width | 330 mm |
-| Outer Height | 178 mm |
-| Thickness | 3.6 mm |
+| Overall Width | 330 mm |
+| Overall Height | 178 mm |
+| Frame Thickness | 3.6 mm |
 | Window Width | 296 mm |
 | Window Height | 140 mm |
 
----
-
-## Design Guidelines
-
-When creating a new frame design:
-
-- Do not obstruct registration stickers.
-- Do not cover required plate information.
-- Maintain clear visibility of license plate numbers.
-- Reinforce mounting-hole locations when needed.
-- Maintain sufficient clearance around holes and edges.
-
-### Recommended Text Parameters
-
-- Text Height: 18–22 mm
-- Raised Depth: 1.4 mm
-- Minimum Stroke Width: 1.2 mm
+The Universal Frame serves as the foundation for all compatible accessories and future design packs.
 
 ---
 
-## Printing
+### Accessory Design Envelope
 
-### Recommended Materials
+Decorative accessories should be designed to:
 
-- PETG
-- ASA
+- Avoid covering registration stickers
+- Maintain visibility of required license plate information
+- Avoid interference with mounting hardware
+- Remain within the legal boundaries of the frame opening
+- Withstand outdoor automotive conditions
 
-Avoid PLA for long-term outdoor use due to heat and UV exposure.
-
-### Bambu H2C Settings
-
-- Layer Height: 0.16 mm (final)
-- Layer Height: 0.20 mm (draft)
-- Walls: 4
-- Top Layers: 6
-- Infill: 20% Gyroid
-- Brim: 8 Lines
-
-### Multi-Color Printing
-
-Typical configuration:
-
-- Frame: Black
-- Text / Graphics: White or contrasting color
-
-Recommended Bambu Studio settings:
-
-- Enable Flush Into Infill
-- Flush Multiplier ≈ 0.6–0.7
-- Enable Ironing for final surface quality
+Final accessory attachment dimensions will be defined as part of the Sticky Plate Attachment Standard.
 
 ---
 
-# Current Designs
+### Manufacturing Targets
 
-## Endangered Species
+Current prototype targets:
 
-A commentary-themed frame inspired by changes occurring in the Three Rivers community.
+| Feature | Value |
+|----------|---------|
+| Accessory Boss Diameter | 5–6 mm |
+| Boss Height | 1–2 mm |
+| Clearance | 0.15–0.25 mm |
+| Magnet Size (Proposed) | TBD |
+| Frame Material | Steel, Aluminum, ASA, or PETG |
+| Accessory Material | ASA, PETG, or equivalent outdoor-rated material |
 
-The design uses wildlife conservation language to draw attention to the declining number of year-round local residents.
+These values are subject to revision as prototype testing continues.
 
-Top:
+### Accessory Packs
 
-THREE RIVERS LOCAL
+Accessories contain the personality of the system.
 
-Bottom:
+Examples include:
 
-ENDANGERED SPECIES
+- Text panels
+- Animal silhouettes
+- Outdoor themes
+- Community pride themes
+- Seasonal decorations
+- Holiday decorations
+- Humor and satire
+- Custom artwork
 
+Accessories are intended to be:
+
+- Easy to create
+- Easy to share
+- Easy to print
+- Easy to install
+
+---
+
+### Attachment System
+
+Development is currently focused on creating a universal attachment system that allows decorative accessories to be attached and removed quickly.
+
+Design concepts under investigation include:
+
+- Magnetic mounting
+- Mechanical retention systems
+- Hybrid magnetic/mechanical systems
+
+The long-term goal is a simple, reliable attachment method that requires no tools for accessory changes.
+
+---
+
+## Open Standard Philosophy
+
+Sticky Plate is intended to be more than a single product.
+
+The project aims to publish a documented interface specification that allows anyone to create compatible accessories.
+
+Creators should be able to:
+
+- Design their own accessories
+- Share accessory models
+- Sell printed accessories
+- Build compatible themes
+- Expand the ecosystem
+
+The more creators involved, the more useful the platform becomes.
+
+---
+
+## Design Goals
+
+### Easy Customization
+
+Change decorations without removing the frame.
+
+### Community Driven
+
+Allow anyone to create compatible accessories.
+
+### 3D Printer Friendly
+
+Accessories should be printable on consumer-grade 3D printers.
+
+### Durable
+
+Designed for outdoor and automotive environments.
+
+### Expandable
+
+Support future accessory categories and attachment methods.
+
+---
+
+## Example Accessory Packs
+
+### Bark 4 Eric
+
+Inspired by Riggs, a Redbone Hound who takes neighborhood security seriously.
+
+Features:
+
+- Howling hound silhouette
+- Humorous neighborhood commentary
 
 See:
 
-[endangered-species/readme.md](endangered-species/readme.md)
+bark-4-eric/README.md
 
 ---
 
-## Bark 4 Eric
+### Endangered Species
 
-A humor-themed frame inspired by Riggs, a Redbone Hound who takes neighborhood security very seriously.
+A commentary-themed design inspired by changes occurring in the Three Rivers community.
 
-The design features a howling hound silhouette and the slogan:
+Features:
 
-Bark 4 Eric
-
-Created as a lighthearted response to ongoing complaints regarding a dog doing what dogs naturally do—alerting on deer, bears, visitors, vehicles, and suspicious activity.
+- THREE RIVERS LOCAL
+- ENDANGERED SPECIES
 
 See:
 
-[bark-4-eric/readme.md](bark-4-eric/readme.md)
+endangered-species/README.md
 
-## Repository Layout
+---
+
+## Repository Structure
 
 ```text
 README.md
 
-bark-4-eric/
-    README.md
+frame/
+    Universal frame design
+    Manufacturing models
+    Fusion source files
 
-endangered-species/
-    README.md
+standard/
+    Interface specifications
+    Design guidelines
+    Attachment standards
+
+accessories/
+
+    bark-4-eric/
+        README.md
+        Models
+
+    endangered-species/
+        README.md
+        Models
 ```
 
 ---
 
-## Future Designs
+## Future Vision
 
-New concepts can be added by:
+Imagine a vehicle-mounted platform where:
 
-1. Creating a new Fusion component based on the shared template.
-2. Creating a matching repository folder.
-3. Adding a README describing the concept and design story.
+- One frame stays on your vehicle for years.
+- New accessories can be installed in seconds.
+- Designers can create and share original artwork.
+- Owners can print accessories at home.
+- The community can continuously expand the ecosystem.
 
-The framework is intended to allow a growing collection of license plate frame designs to share a common manufacturing and documentation process.
+The frame is permanent.
+
+The creativity is limitless.
+
+Welcome to Sticky Plate.
